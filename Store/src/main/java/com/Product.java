@@ -31,6 +31,14 @@ public class Product implements Comparable<Product>{
 	 * @see #getPrice()
 	 */
 	private Float price;
+
+	/**
+	 * The total purchases of this {@code Product}.
+	 * @since 1.0
+	 * @see #setTotalPurchases(int)
+	 * @see #getTotalPurchases()
+	 */
+	private int totalPurchases;
 	
 	/**
 	 * Constructor for a new Product with a permanent {@link #productID ID} value.
@@ -99,6 +107,20 @@ public class Product implements Comparable<Product>{
 		this.price = price;
 	}	
 	
+	/**
+	 * @return the totalPurchases
+	 */
+	public int getTotalPurchases() {
+		return totalPurchases;
+	}
+
+	/**
+	 * @param totalPurchases the totalPurchases to set
+	 */
+	public void setTotalPurchases(int totalPurchases) {
+		this.totalPurchases = totalPurchases;
+	}
+
 	@Override
 	public String toString() {
 		//I wanted to try a string builder 

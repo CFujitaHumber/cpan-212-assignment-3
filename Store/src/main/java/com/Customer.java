@@ -37,6 +37,14 @@ public class Customer implements Comparable<Customer> {
 	private String lastName = "NA";
 
 	/**
+	 * The total bill of a customer accumulated in CAD$.
+	 * @since 1.0
+	 * @see #setTotalBill(float)
+	 * @see #getTotalBill()
+	 */
+	private float totalBill = 0;
+
+	/**
 	 * Constructor for a new customer with a permanent ID value.
 	 * @param customerID specified permanent ID
 	 * @since 1.0
@@ -109,6 +117,20 @@ public class Customer implements Comparable<Customer> {
 		this.lastName = lastName;
 	}
 	
+	/**
+	 * @return the totalBill
+	 */
+	public float getTotalBill() {
+		return totalBill;
+	}
+
+	/**
+	 * @param totalBill the totalBill to set
+	 */
+	public void setTotalBill(float totalBill) {
+		this.totalBill = totalBill;
+	}
+
 	@Override
 	public String toString() {
 		//I wanted to try a string builder 
