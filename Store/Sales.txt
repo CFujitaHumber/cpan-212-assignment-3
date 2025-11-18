@@ -1,0 +1,11 @@
+1001 Alice Johnson 5001 Shirt 30 1
+1002 Bob Smith 5002 Jeans 60 2
+1003 Carol White 5003 Jacket 120 1
+1001 Alice Johnson 5004 Socks 10 5
+1002 Bob Smith 5001 Shirt 30 3
+1003 Carol White 5002 Jeans 60 1
+1004 David Brown 5003 Jacket 120 2
+1005 Abigail Adams 5020 Blouse 45 2
+1001 Alice Johnson 5002 Jeans 60 1
+1002 Bob Smith 5003 Jacket 120 1
+1004 David Brown 5004 Socks 10 10

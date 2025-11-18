@@ -130,6 +130,10 @@ public class Customer implements Comparable<Customer> {
 	public void setTotalBill(float totalBill) {
 		this.totalBill = totalBill;
 	}
+	
+	public void addToBill(float amount) {
+		this.totalBill += amount;
+	}
 
 	@Override
 	public String toString() {

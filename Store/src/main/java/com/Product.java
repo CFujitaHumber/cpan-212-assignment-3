@@ -121,6 +121,14 @@ public class Product implements Comparable<Product>{
 		this.totalPurchases = totalPurchases;
 	}
 
+	
+	/** 
+	 * Adds to the total number of purchases for this product. 
+	 */
+    public void addToTotalPurchases(int amount) {
+        this.totalPurchases += amount;
+    }
+    
 	@Override
 	public String toString() {
 		//I wanted to try a string builder 
